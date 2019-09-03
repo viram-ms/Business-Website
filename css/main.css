@@ -2553,7 +2553,7 @@ blockquote {
       content: "\201C";
       font-weight: bold;
       font-size:60px;
-      color:#889c0b;
+      color:#229ed4;
       position: absolute; 
       top: -0.2em;
       left: -0.2em; 
@@ -2563,7 +2563,7 @@ blockquote {
       content: "\201D";
       font-weight: bold;
       font-size:60px;
-      color:#889c0b;
+      color:#229ed4;
       position: absolute; 
       bottom: -0.2em;
       right: -0.2em; 
@@ -2711,6 +2711,14 @@ blockquote {
   border-radius: 5px;
   width: 20%;
 }
+
+/* .divider-dots-content :before{
+  border-top-width: 1px;
+  border-top-color: #000000;
+  border-top-style: solid;
+  position: absolute;
+  margin-left: -50%;
+} */
 
 
 
@@ -3004,7 +3012,7 @@ blockquote {
 
 .footer-area {
   padding-top: 40px;
-  background-color: #ddd;
+  background-color: #d3d3d3;
 }
 
 .footer-area h6 {
