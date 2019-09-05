@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <!-- Favicon-->
-    <link rel="shortcut icon" href="img/fav.png" />
+    <link rel="shortcut icon" href="img/icons/logo (3).png" />
     <!-- Author Meta -->
     <meta name="author" content="codepixer" />
     <!-- Meta Description -->
@@ -55,13 +55,19 @@
                 title=""
                 style="height: 30px"
               />
-              <h3
+              <!-- <h3
                 style="margin-left: 10px;
               margin-top: 6px;
               color: #1a991a;"
               >
                 VIKRAM BROTHERS
-              </h3>
+              </h3> -->
+              <img
+                src="img/icons/NAME.png"
+                alt=""
+                title=""
+                style="height: 20px;margin-left: 15px;margin-top:5px"
+              />
             </a>
           </div>
           <nav id="nav-menu-container">
@@ -320,7 +326,7 @@
                 <a
                   href="#"
                   style="text-decoration: none; color: black;margin-left: 5px"
-                  >info@gmail.com</a
+                  >vbteaexporter@gmail.com</a
                 >
               </div>
 
@@ -328,9 +334,9 @@
                 <!-- Office  <i class="fa fa-phone mr-10" style="color: #1a991a; font-size: 24px" aria-hidden="true"></i> -->
                 Office:
                 <a
-                  href="tel: 022-40043282"
+                  href="tel: 022-23423282"
                   style="text-decoration: none; color:black;margin-left: 5px"
-                  >022-40043282 / 23423282</a
+                  >022-23423282</a
                 >
               </div>
               <div class="d-flex contact-us">
@@ -381,27 +387,24 @@
     <script src="js/mail-script.js"></script>
     <script src="js/main.js"></script>
     <!-- WhatsHelp.io widget -->
-    <script type="text/javascript">
-      (function() {
-        var options = {
-          whatsapp: "+918879490461", // WhatsApp number
+    <!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+  (function () {
+      var options = {
+          whatsapp: "7977579726", // WhatsApp number
+          email: "vbteaexporter@gmail.com", // Email
           call_to_action: "Message us", // Call to action
-          position: "right" // Position may be 'right' or 'left'
-        };
-        var proto = document.location.protocol,
-          host = "whatshelp.io",
-          url = proto + "//static." + host;
-        var s = document.createElement("script");
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = url + "/widget-send-button/js/init.js";
-        s.onload = function() {
-          WhWidgetSendButton.init(host, proto, options);
-        };
-        var x = document.getElementsByTagName("script")[0];
-        x.parentNode.insertBefore(s, x);
-      })();
-    </script>
+          button_color: "#FF6550", // Color of button
+          position: "right", // Position may be 'right' or 'left'
+          order: "whatsapp,email", // Order of buttons
+      };
+      var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+</script>
+<!-- /WhatsHelp.io widget -->
     <!-- /WhatsHelp.io widget -->
   </body>
 </html>

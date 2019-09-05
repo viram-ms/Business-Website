@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <!-- Favicon-->
-    <link rel="shortcut icon" href="img/fav.png" />
+    <link rel="shortcut icon" href="img/icons/logo (3).png" />
     <!-- Author Meta -->
     <meta name="author" content="codepixer" />
     <!-- Meta Description -->
@@ -37,38 +37,44 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-      <header id="header" id="home">
-          <div class="container main-menu">
-            <div class="row align-items-center justify-content-between d-flex">
-              <div id="logo">
-                <a href="index.html" style="display: flex"
-                  ><img
-                    src="img/icons/logo (3).png"
-                    alt=""
-                    title=""
-                    style="height: 30px"
-                  />
-                  <h3
-                    style="margin-left: 10px;
-                  margin-top: 6px;
-                  color: #1a991a;"
-                  >
-                    VIKRAM BROTHERS
-                  </h3>
-                </a>
-              </div>
-              <nav id="nav-menu-container">
-                <ul class="nav-menu">
-                  <li class="menu-active"><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="journey.html">Journey</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                </ul>
-              </nav>
-              <!-- #nav-menu-container -->
-            </div>
+    <header id="header" id="home">
+      <div class="container main-menu">
+        <div class="row align-items-center justify-content-between d-flex">
+          <div id="logo">
+            <a href="index.html" style="display: flex"
+              ><img
+                src="img/icons/logo (3).png"
+                alt=""
+                title=""
+                style="height: 30px"
+              />
+              <!-- <h3
+                style="margin-left: 10px;
+              margin-top: 6px;
+              color: #1a991a;"
+              >
+                VIKRAM BROTHERS
+              </h3> -->
+              <img
+                src="img/icons/NAME.png"
+                alt=""
+                title=""
+                style="height: 20px;margin-left: 15px;margin-top:5px"
+              />
+            </a>
           </div>
-        </header>
+          <nav id="nav-menu-container">
+            <ul class="nav-menu">
+              <li class="menu-active"><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="journey.html">Journey</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <!-- #nav-menu-container -->
+        </div>
+      </div>
+    </header>
     <!-- #header -->
 
     <!-- start banner Area -->
@@ -396,18 +402,23 @@
     <script src="js/waypoints.min.js"></script>
     <script src="js/mail-script.js"></script>
     <script src="js/main.js"></script>
-    <script type="text/javascript">
-      (function () {
-          var options = {
-              whatsapp: "+918879490461", // WhatsApp number
-              call_to_action: "Message us", // Call to action
-              position: "right", // Position may be 'right' or 'left'
-          };
-          var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
-          var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-          s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-          var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-      })();
-    </script>
+    <!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+  (function () {
+      var options = {
+          whatsapp: "7977579726", // WhatsApp number
+          email: "vbteaexporter@gmail.com", // Email
+          call_to_action: "Message us", // Call to action
+          button_color: "#FF6550", // Color of button
+          position: "right", // Position may be 'right' or 'left'
+          order: "whatsapp,email", // Order of buttons
+      };
+      var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+</script>
+<!-- /WhatsHelp.io widget -->
   </body>
 </html>
