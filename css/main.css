@@ -2640,7 +2640,7 @@ blockquote {
 
 @media (max-width: 960px) {
   .home-about-area .home-about-left {
-    text-align: center;
+    text-align: justify;
     margin-bottom: 50px;
   }
 
