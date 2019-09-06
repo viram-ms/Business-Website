@@ -130,7 +130,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #222222;
   line-height: 1.2em !important;
   margin-bottom: 0;
@@ -146,13 +146,14 @@ h6 {
 .h6 {
   margin-bottom: 0;
   margin-top: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: #222222;
 }
 
 h1,
 .h1 {
+  font-family: 'Open Sans', sans-serif;
   font-size: 36px;
 }
 
@@ -168,7 +169,7 @@ h3,
 
 h4,
 .h4 {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 h5,
@@ -2296,7 +2297,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding: 90px 0;
 }
 
 .section-title {
@@ -2389,7 +2390,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/icons/back.jpeg) center;
+  background: url(../img/icons/cover.jpg) center;
   background-size: cover;
 }
 
@@ -2430,6 +2431,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 1em;
   margin-top: 20px;
   margin-bottom: 20px;
+  left: 0;
 }
 
 .banner-content h1 span {
@@ -2439,6 +2441,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 991.98px) {
   .banner-content h1 {
     font-size: 36px;
+    left: 35%;
   }
 }
 
@@ -2448,15 +2451,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (max-width: 1199.98px) {
+@media (min-width: 1199.98px) {
   .banner-content h1 {
     font-size: 45px;
+    left: 35%;
   }
 }
 
 @media (max-width: 414px) {
   .banner-content h1 {
     font-size: 40px;
+    left: 0!important;
   }
 }
 
@@ -2505,10 +2510,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .cat-area .single-cat p {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: justify;
   max-width: 280px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 16px
+  font-size: 18px;
+  font-weight: normal;
+  text-align: justify;
+  font-weight: 400;
 }
 
 .cat-area .hb-sm {
@@ -2544,9 +2554,10 @@ blockquote {
   }
   
   blockquote h5 {
-      font-size:18px;
+      font-size:24px;
       text-align: center;
-      color: #222222
+      color: #222222;
+      letter-spacing: 4px;
   }
   
   blockquote h5:before { 
@@ -2585,12 +2596,27 @@ blockquote {
 }
 
 .home-about-area .home-about-left .sub {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #606060;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.content {
+  font-family: 'Josefin Sans', sans-serif;
   color: #606060;
   margin-bottom: 5px;
   margin-top: 15px;
-  font-size: 17px;
-  text-align: justify
-
+  font-size: 20px;
+  font-weight: normal;
+  text-align: justify;
+  line-height: 30px;
+  font-weight: 400;
 }
 
 .home-about-area .home-about-left .primary-btn {
@@ -2615,6 +2641,7 @@ blockquote {
 
 @media (max-width: 960px) {
   .home-about-area .home-about-left {
+    text-align: center;
     margin-bottom: 50px;
   }
 }
