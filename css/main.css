@@ -2607,11 +2607,10 @@ blockquote {
     font-weight: 400;
 }
 
+
 .content {
   font-family: 'Josefin Sans', sans-serif;
   color: #606060;
-  margin-bottom: 5px;
-  margin-top: 15px;
   font-size: 20px;
   font-weight: normal;
   text-align: justify;
@@ -2643,6 +2642,14 @@ blockquote {
   .home-about-area .home-about-left {
     text-align: center;
     margin-bottom: 50px;
+  }
+
+  .home-about-area .home-about-left .sub{
+    font-size: 18px;
+  }
+
+  .content{
+    font-size: 18px;
   }
 }
 
