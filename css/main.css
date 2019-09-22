@@ -153,8 +153,10 @@ h6 {
 
 h1,
 .h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 36px;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Saira Stencil One', cursive;
+  font-style: italic;
+  font-size: 42px !important;
 }
 
 h2,
@@ -2192,7 +2194,7 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #222;
+  color:grey;
   font-weight: 900;
 }
 
@@ -2219,6 +2221,7 @@ h6 {
   transition: 0.4s;
 }
 
+
 #mobile-nav ul {
   padding: 0;
   margin: 0;
@@ -2231,7 +2234,7 @@ h6 {
 
 #mobile-nav ul li a {
   color: #fff;
-  font-size: 13px;
+  font-size: 18px;
   text-transform: uppercase;
   overflow: hidden;
   padding: 10px 22px 10px 15px;

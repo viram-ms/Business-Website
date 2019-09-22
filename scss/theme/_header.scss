@@ -283,11 +283,12 @@
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0);
   left: -260px;
-  width: 260px;
+  width: 100%;
   overflow-y: auto;
   transition: 0.4s;
+  text-align: center;
 }
 
 #mobile-nav ul {
