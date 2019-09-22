@@ -2512,13 +2512,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 .cat-area .single-cat p {
   font-family: 'Josefin Sans', sans-serif;
   text-align: justify;
-  max-width: 280px;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: normal;
   text-align: justify;
   font-weight: 400;
+  line-height: 30px;
+}
+@media (max-width: 960px) {
+  .cat-area .single-cat p {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: justify;
+    font-weight: 400;
+  }
 }
 
 .cat-area .hb-sm {
@@ -2554,7 +2562,7 @@ blockquote {
   }
   
   blockquote h5 {
-      font-size:24px;
+      font-size:26px;
       text-align: center;
       color: #222222;
       letter-spacing: 4px;
@@ -2611,7 +2619,7 @@ blockquote {
 .content {
   font-family: 'Josefin Sans', sans-serif;
   color: #606060;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: normal;
   text-align: justify;
   line-height: 30px;
