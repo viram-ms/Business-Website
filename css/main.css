@@ -2175,7 +2175,7 @@ h6 {
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
   position: fixed;
-  right: 15px;
+  right: 5px;
   z-index: 999;
   top: 60px;
   border: 0;
