@@ -2530,6 +2530,15 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: justify;
     font-weight: 400;
   }
+  .bullets {
+    font-size: 18px!important;
+  }
+}
+
+.bullets{
+  font-size: 22px;
+  font-family:Josefin Sans, sans-serif; 
+  color: black;
 }
 
 .cat-area .hb-sm {
