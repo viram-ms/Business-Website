@@ -2008,6 +2008,7 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  background: rgba(255, 255, 255);
 }
 
 #header.header-scrolled {
@@ -2123,7 +2124,7 @@ h6 {
   padding: 0 8px 0px 8px;
   text-decoration: none;
   display: inline-block;
-  color: white;
+  color: black;
   font-weight: 400;
   font-size: 16px;
   text-transform: uppercase;
@@ -2397,6 +2398,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
 }
 
+.banner-area-mobile {
+  background: url(../img/icons/cover_mobile.jpeg) center;
+  background-size: cover;
+}
+
 .history {
   background: url(../img/icons/cover.jpg) center;
   background-size: cover;
@@ -2410,6 +2416,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 767.98px) {
   .banner-area .fullscreen {
     height: 700px !important;
+    /* display: none !important; */
   }
 }
 
