@@ -2304,6 +2304,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 90px 0;
 }
 
+@media (max-width: 767.98px) {
+  .section-gap {
+    padding: 20px 0;
+  }
+}
+
 .section-title {
   padding-bottom: 30px;
 }
@@ -2402,6 +2408,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-area-mobile {
   background: url(../img/icons/mobile_cover_pic.jpg) center;
   background-size: cover;
+  background-position: bottom;
 }
 
 .history {
@@ -2412,6 +2419,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 .history .overlay {
   background: #000;
   opacity: 0.5;
+}
+
+@media (max-width: 767.98px) {
+  .banner-area {
+    display: none !important;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -2669,6 +2682,7 @@ blockquote {
   .home-about-area .home-about-left {
     text-align: justify;
     margin-bottom: 50px;
+    margin-top: 10px;
   }
 
   .home-about-area .home-about-left .sub{
