@@ -2396,10 +2396,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-area {
   background: url(../img/icons/cover_pic.jpg) center;
   background-size: cover;
+  margin-top: 70px;
 }
 
 .banner-area-mobile {
-  background: url(../img/icons/cover_mobile.jpeg) center;
+  background: url(../img/icons/mobile_cover_pic.jpg) center;
   background-size: cover;
 }
 
@@ -2416,7 +2417,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 767.98px) {
   .banner-area .fullscreen {
     height: 700px !important;
-    /* display: none !important; */
+    display: none !important;
   }
 }
 
@@ -2521,10 +2522,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .cat-area .single-cat p {
   font-family: 'Josefin Sans', sans-serif;
-  text-align: justify;
   font-size: 20px;
   font-weight: normal;
-  text-align: justify;
+  text-align: left;
   font-weight: 400;
   line-height: 30px;
 }
