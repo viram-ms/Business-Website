@@ -3823,3 +3823,15 @@ blockquote h5:after {
                End Blog Details  Page style
 ################
 */
+
+.img-icon {
+  margin-left: 0px !important;
+  margin-top: -10px !important;
+}
+
+@media (min-width: 767px) {
+  .img-icon {
+    margin-left: -20% !important;
+    margin-top: -2px !important;
+  }
+}
