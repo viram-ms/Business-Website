@@ -2400,14 +2400,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/icons/namo9-cover.png) center;
+  background: url(../img/icons/stress_buster_2.png) center;
   background-size: contain;
   /* margin-top: 70px; */
   background-repeat: no-repeat;
 }
 
 .banner-area-mobile {
-  background: url(../img/icons/namp9-tea-mob.png) center;
+  background: url(../img/icons/stress_buster_mob.jpg) center;
   background-size: cover;
   background-position: bottom;
 }
