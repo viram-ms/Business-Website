@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://namo9tea.com/sitemap.xml
