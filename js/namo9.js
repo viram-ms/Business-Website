@@ -63,10 +63,6 @@ function initMobileMenu() {
   mobileMenu.querySelectorAll('.mobile-nav-link').forEach(link => {
     link.addEventListener('click', closeMenu);
   });
-
-  // Close button inside mobile menu
-  const closeBtn = mobileMenu.querySelector('.mobile-menu-close');
-  if (closeBtn) closeBtn.addEventListener('click', closeMenu);
 }
 
 /* === 3. CAROUSEL CLASS === */
