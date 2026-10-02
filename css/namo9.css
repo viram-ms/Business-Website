@@ -309,6 +309,12 @@ p {
 .header-logo img {
   height: 48px;
   width: auto;
+  filter: brightness(0) invert(1);
+  transition: filter 0.4s var(--ease-smooth);
+}
+
+.site-header.scrolled .header-logo img {
+  filter: none;
 }
 
 /* Desktop nav */
@@ -436,22 +442,6 @@ p {
 .mobile-nav-link[aria-current="page"] {
   color: var(--color-gold);
 }
-
-/* Close button inside mobile menu */
-.mobile-menu-close {
-  position: absolute;
-  top: var(--space-6);
-  right: var(--space-6);
-  width: 44px; height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-white);
-  font-size: 1.75rem;
-  opacity: 0.7;
-  transition: opacity 0.2s ease;
-}
-.mobile-menu-close:hover { opacity: 1; }
 
 /* === 7. HERO — HOME === */
 .hero {
