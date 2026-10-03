@@ -1204,6 +1204,7 @@ p {
   color: var(--color-gold);
   line-height: 1;
   margin-bottom: var(--space-4);
+  font-variant-numeric: lining-nums; /* Playfair's old-style figures sit at uneven heights */
 }
 
 .timeline-text {
@@ -1222,9 +1223,10 @@ p {
 }
 
 .timeline-text .brand-name {
-  color: var(--color-gold);
+  color: #3c7225; /* matches the NAMO 9 logo artwork green */
   font-family: var(--font-display);
   font-weight: 700;
+  font-variant-numeric: lining-nums; /* Playfair's default old-style "9" dips below the baseline */
 }
 
 /* === 18. PACKAGING PAGE === */
@@ -1416,8 +1418,7 @@ p {
 .footer-logo img {
   height: 44px;
   width: auto;
-  /* Slight brightness to show on dark bg */
-  filter: brightness(1.15);
+  filter: brightness(0) invert(1);
 }
 
 .footer-tagline {
@@ -1523,7 +1524,14 @@ p {
   padding-top: var(--space-6);
   text-align: center;
   font-size: var(--text-xs);
-  color: rgba(232, 213, 160, 0.5);
+}
+
+.footer-bottom p {
+  color: var(--color-white);
+}
+
+.footer-bottom .footer-heart {
+  color: #e63946;
 }
 
 /* === 21. SCROLL REVEAL ANIMATIONS === */
@@ -1560,6 +1568,10 @@ p {
 
 /* ─── 1024px ─── */
 @media (max-width: 1024px) {
+  /* Header — desktop nav doesn't fit below 1024px (7 links + logo) */
+  .header-nav { display: none; }
+  .hamburger { display: flex; }
+
   .bento-grid {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -1580,10 +1592,6 @@ p {
 
 /* ─── 768px ─── */
 @media (max-width: 768px) {
-  /* Header */
-  .header-nav { display: none; }
-  .hamburger { display: flex; }
-
   /* Bento */
   .bento-grid {
     grid-template-columns: 1fr 1fr;
@@ -1752,6 +1760,13 @@ p {
 .press-card-featured:hover {
   box-shadow: 0 16px 48px rgba(26,58,42,0.18);
   transform: translateY(-4px);
+}
+
+.press-card-featured--reverse {
+  direction: rtl;
+}
+.press-card-featured--reverse > * {
+  direction: ltr;
 }
 
 .press-card-featured-accent {
@@ -1943,9 +1958,13 @@ p {
 
 /* Responsive — press */
 @media (max-width: 768px) {
-  .press-card-featured {
+  .press-card-featured,
+  .press-card-featured--reverse {
     grid-template-columns: 1fr;
+    direction: ltr;
   }
+
+  .press-card-featured--reverse > * { direction: ltr; }
 
   .press-card-featured-accent {
     padding: var(--space-8);
